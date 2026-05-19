@@ -1,0 +1,28 @@
+{
+    "version": "19.73",
+    "description": "由ABC_123编写的Web日志分析工具",
+    "homepage": "https://github.com/abc123info/Struts2VulsScanTools",
+    "license": "Unlicense",
+    "suggest": {
+        "java": "java/oraclejre8"
+    },
+    "url": "https://github.com/abc123info/Struts2VulsScanTools/releases/download/v19.73/Struts2_19.73.jar#/Struts2VulsScanTools.jar",
+    "hash": "c0a6549fdd39bacf19481eb9576b721c6b52e2b7f889a966347d66691843c43f",
+    "pre_install": [
+        "Set-Content \"$dir\\Struts2VulsScanTools.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
+        "@start javaw.exe -jar \"Struts2VulsScanTools.jar\" %*",
+        "@popd' -Encoding Ascii"
+    ],
+    "bin": "Struts2VulsScanTools.bat",
+    "shortcuts": [
+        [
+            "Struts2VulsScanTools.bat",
+            "Struts2VulsScanTools"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/abc123info/Struts2VulsScanTools/releases/download/v$version/Struts2_$version.jar#/Struts2VulsScanTools.jar"
+    }
+}

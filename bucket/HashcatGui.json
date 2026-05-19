@@ -12,6 +12,10 @@
             "hashcat-gui"
         ]
     ],
+    "pre_install": [
+        "$subdir = Get-ChildItem $dir | Select-Object -First 1",
+        "Move-Item \"$($subdir.FullName)\\*\" $dir"
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": [

@@ -6,7 +6,7 @@
     "suggest": {
         "java": "java/oraclejre8"
     },
-    "url": "https://github.com/abc123info/LogAnalyser/releases/download/v0.32/logAnalyserV0.32.jar",
+    "url": "https://github.com/abc123info/LogAnalyser/releases/download/v0.32/logAnalyserV0.32.jar#/LogAnalyser.jar",
     "hash": "634519d2fa434773e1922c9525f7884aeb8a4c9480e7d7ac8ab4604d48ea2c28",
     "pre_install": [
         "Set-Content \"$dir\\WebLogAnalyser.bat\" '@pushd %~dp0",
@@ -23,6 +23,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/abc123info/LogAnalyser/releases/download/v$version/logAnalyserV$version.jar"
+        "url": "https://github.com/abc123info/LogAnalyser/releases/download/v$version/logAnalyserV$version.jar#/LogAnalyser.jar"
     }
 }

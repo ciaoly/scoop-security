@@ -14,7 +14,7 @@
         "@start javaw.exe -jar \"LogAnalyser.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "LogAnalyser.bat",
+    "bin": "WebLogAnalyser.bat",
     "shortcuts": [
         [
             "WebLogAnalyser.bat",

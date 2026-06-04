@@ -5,7 +5,7 @@
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/mofeng-git/One-KVM/releases/download/v260524/one-kvm_0.2.2_amd64.exe#one-kvm.exe",
+      "url": "https://github.com/mofeng-git/One-KVM/releases/download/v260524/one-kvm_0.2.2_amd64.exe#/one-kvm.exe",
       "hash": "sha256:910534ce3aa7bf18265697a0ef3863731430fe488f81c8aa29526fdeb0cfbf00"
     }
   },
